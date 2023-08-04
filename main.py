@@ -1,7 +1,7 @@
 #Name: Noah Tembrock
 #Date: July 23, 2023
 
-print("Welcome to The Garage!")
+print("Welcome to Noah's Garage!")
 
 class Vehicle:
     def __init__(self, make, model):
@@ -63,4 +63,4 @@ for vehicle in garage:
     elif isinstance(vehicle, Pickup):
         print("Bed length:", vehicle.get_bed_length())
     print("\n")
-print("Thank you for coming to The Garage.")
+print("Thank you for coming to Noah's Garage.")

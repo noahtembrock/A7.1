@@ -66,4 +66,6 @@ for vehicle in garage:
     elif isinstance(vehicle, Pickup):
         print("Bed length:", vehicle.get_bed_length())
     print("\n")
+
 print("Thank you for coming to Noah's Garage!")
+print("Have a great day!")

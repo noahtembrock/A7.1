@@ -15,6 +15,7 @@ class Vehicle:
     def get_model(self):
         return self.model
 
+#Vehicle Class (Car)
 class Car(Vehicle):
     def __init__(self, make, model, num_doors):
         Vehicle.__init__(self, make, model)
@@ -23,6 +24,7 @@ class Car(Vehicle):
     def get_doors(self):
         return self.num_doors
 
+#Vehicle Class (Truck)
 class Pickup(Vehicle):
     def __init__(self, make, model, bed_length):
         Vehicle.__init__(self, make, model)
